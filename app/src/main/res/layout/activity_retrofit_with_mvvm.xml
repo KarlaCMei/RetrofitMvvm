@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+tools:context=".mvvm_with_retrofit.RetrofitWithMvvm">
+
+    <Button
+        android:id="@+id/btnPopular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular movies"/>
+    <Button
+        android:id="@+id/btnTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top movies"/>
+
+
+</LinearLayout>

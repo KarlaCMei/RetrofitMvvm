@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btnRetrofitBasico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT NORMAL (BASICO)"/>
+
+    <Button
+        android:id="@+id/btnRetrofitInterceptor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT CON INTERCEPTOR"/>
+
+    <Button
+        android:id="@+id/btnRetrofitInterceptorSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT CON INTERCEPTOR Y SESION"/>
+
+    <Button
+        android:id="@+id/btnRetrofitTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT TIME"/>
+
+    <Button
+        android:id="@+id/btnRetrofitWhitParameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT INTERCEPTOR SESSION PARAMETER"/>
+
+    <Button
+        android:id="@+id/btnRetrofitCargaDinamica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT CARGA DINAMICA" />
+
+    <Button
+        android:id="@+id/btnRetrofitCallBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT CALL BACK" />
+
+    <Button
+        android:id="@+id/btnRetrofitWithMvvm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETROFIT WITH MVVM" />
+
+</LinearLayout>
